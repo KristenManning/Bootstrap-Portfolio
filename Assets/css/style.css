@@ -1,0 +1,56 @@
+*{
+  font-family: Helvetica;
+}
+
+/*blue navbar*/
+.navbar-default {
+  background-image: none;
+  background-color: #FF9C4B;
+  font-family: 'Bree Serif', serif;
+  margin: 0px;
+  height: 65px; 
+  border-top: solid;
+  border-color: #C9C5FF;
+}
+
+/*yellow background below navbar*/
+section{
+  background-image: none;
+  background-color: #FF9C4B;
+}
+
+#name{
+  font-size: 30px;
+  line-height: 24px;
+  color: #7F7D72;
+}
+
+#tabs{
+  font-size: 24px;
+  line-height: 18px;
+}
+
+#main_content{
+  border: solid;
+  border-width: 25px;
+  border-radius: 3px;
+  border-color: #C9C5FF;
+  width:90%;
+  background-color: #99865C; 
+}
+
+.container{
+  width: 80%;
+}
+
+h1{
+  font-size: 28px;
+  line-height: 32px;
+  color: #27CC8A;
+  font-family: 'Bree Serif', serif;
+
+}
+
+p{
+  color: white;
+}
