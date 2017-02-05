@@ -1,123 +1,133 @@
+body{ 
+  background: url("../images/board.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.9;
+  padding: 2%;
+  padding-bottom: 70px; 
+}
+
 *{
-  font-family: Helvetica;
-}
-
-/*blue navbar*/
-.navbar-default {
-  background-image: none;
-  background-color: #FF9C4B;
-  font-family: 'Bree Serif', serif;
-  margin: 0px;
-  height: 65px; 
-  border-top: solid;
-  border-color: #C9C5FF;
-}
-
-/*yellow background below navbar*/
-section{
-  background-image: none;
-  background-color: #FF9C4B;
-}
-
-#name{
-  font-size: 30px;
-  line-height: 24px;
-  color: #7F7D72;
-}
-
-#tabs{
-  font-size: 24px;
-  line-height: 18px;
-}
-
-#main_content{
-  border: solid;
-  border-width: 10px;
-  border-radius: 3px;
-  border-color: #C9C5FF;
-  width:90%;
-  background-color: #99865C; 
-}
-
-.container{
-  width: 90%;
-}
-
-.panel-default{
-  background-color:#27CC8A;
+  font-family: 'Catamaran', sans-serif;
 }
 
 h1{
-  font-size: 38px;
-  line-height: 48px;
-  color: #27CC8A;
-  font-family: 'Bree Serif', serif;
-  font-weight: bold;
-
+  font-size: 95px;
+  color: #FEDCD2;
+  opacity: 0.8;
+  font-family: 'Homemade Apple', cursive;
+  font-weight: bolder;
 }
 
-.panel-title{
-  font-size: 26px;
-  font-family: 'Bree Serif', serif;
-  font-weight: bold;
-  color: #27CC8A; 
-  text-align: center;
-}
-
-.panel-body{
-  text-align: center;
-}
-
-.panel-default{
-  border: none;
+h2{
+  font-size: 95px;
+  color: #DF744A;
+  opacity: 0.8;
+  font-family: 'Homemade Apple', cursive;
+  font-weight: bolder;
 }
 
 h3{
-  font-size: 26px; 
+  color: #BFD8D2;
+  font-size: 46px;
+  line-height: 48px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-weight: bold;
+
+}
+
+h4{
+  color: #BFD8D2;
+  font-size: 30px;
+  line-height: 32px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-weight: bold;
+
 }
 
 p{
   color: white;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Annie Use Your Telescope', cursive;
 }
 
-#headshot{
-  text-align: center;
+div{
+  border-bottom: 2%;
+}
+#a{
+  background-color: #FEDCD2;
 }
 
-a{
-  text-decoration: none;
-  color:#27CC8A;
+#b{
+  background-color: #DCB239;
 }
 
-.items {
-    text-indent: 3em;
-    color: white;
-    font-size: 18px;
-    line-height: 22px;
+#c{
+  background-color: #BFD8D2;
 }
 
-#footer{
-  height: 85px;
-  width: 100%;
-  background-color: #27CC8A; 
-  border: solid;
-  border-top-width: 10px;
-  border-color: #C9C5FF;
-  text-align: center;
-
+#d{
+  background-color: #DF744A;
 }
 
-.picline {
-  width: 60%;
-  height:35px;
-  background-color: #27CC8A;
-  position: absolute;
-  top: 70px;
+.row{
+  height:100%;
+}
+
+.navbar{
+/*  background-image: url("../images/wood.jpg");*/
+  background-image: none;
+  border: none;
+  background-color: #BFD8D2;
+  opacity: 0.7;
+
+}
+#contact_icons{
+  text-align: right;
+}
+
+.navigation-link{
+  font-size: 34px;
   color: white;
-  font-family: 'Bree Serif', serif;
-  text-align: center;
-  font-size: 22px;
-  line-height: 32px;
+}
+
+.demo-gif{
+  width:100%;
+  height:auto;
+}
+
+
+#tape{
+  width: 30%;
+  height: auto;
+  position: relative;
+
+}
+
+#my-img{
+  text-align: center
+}
+#me{ 
+  position: relative;
+ }
+
+i{
+  color: white;
+}
+
+
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+       url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+       url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }
